@@ -5,7 +5,7 @@ public class FVCalc {
 		double years = Double.parseDouble(args[2]);
 		double rate = percentageRate / 100.0;
 		double base = 1.0 + rate;
-		git add hw1-RoeiOrongit add hw1-RoeiOrondouble futureValueDouble = currentValue * Math.pow(base, years);
+		double futureValueDouble = currentValue * Math.pow(base, years);
 		int futureValueInt = (int) futureValueDouble;
 		System.out.println("After " + (int) years + " years, $" + (int) currentValue + " saved at " + percentageRate + "% will yield $" + futureValueInt);
 	} 
